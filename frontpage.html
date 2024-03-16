@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+
+<head>
+    <TITLE>FRONT PAGE</TITLE>
+    <style>
+        header {
+            background-color: blanchedalmond;
+            color: #3a0202;
+            padding: 25px;
+            text-align: center;
+        }
+
+        /* Styling for the login, signup, and search bar */
+        .header-links {
+            float: left;
+            margin-left: 15px;
+        }
+
+        .search-bar {
+            float: right;
+            margin-right: 25px;
+        }
+
+    
+
+        /* CSS for images */
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .image-container img {
+            height: 200px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+        <div class="header-links">
+            <a href="login.php" onclick="openLoginPopup()">Login</a> | 
+            <a href="signup.php">Signup</a> 
+        </div>
+        <div class="search-bar">
+            <form action="#" method="get"> 
+                <input type="text" name="search" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div class="company-name">
+           <P color="red">Sajilo Books</P> 
+        </div>
+    </header>
+
+    <div class="image-container">
+        <div class="image-info">
+            <img src="images/image 1.jpg" alt="Image 1">
+            <p>Title: Product 1</p>
+            <p>Price: $10</p>
+        </div>
+        <div class="image-info">
+            <img src="images/Image 2.jpg" alt="Image 2">
+            <p>Title: Product 1</p>
+            <p>Price: $37</p>
+        </div>
+        <div class="image-info">
+            <img src="images/Image 3.jpg" alt="Image 3">
+            <p>Title: Product 2</p>
+            <p>Price: $36</p>
+        </div>
+
+        <div class="image-info">
+        <img src="images/Image 4.jpg" alt="Image 4">
+        <p>Title: Product 2</p>
+        <p>Price: $26</p>
+    </div>
+    </div>
+    <br>
+    <div class="image-container">
+        <div class="image-info">
+        <img src="images/Image 5.jpg" alt="Image 5">
+        <p>Title: Product 2</p>
+        <p>Price: $23</p>
+    </div>
+    <div class="image-info">
+        <img src="images/Images 6.jpg" alt="Image 6">
+        <p>Title: Product 2</p>
+        <p>Price: $29</p>
+    </div>
+    <div class="image-info">
+        <img src="images/Images 7.jpg" alt="Image 7">
+        <p>Title: Product 2</p>
+        <p>Price: $19</p>
+    </div>
+    <div class="image-info">
+        <img src="images/Images 8.jpg" alt="Image 8">
+        <p>Title: Product 2</p>
+        <p>Price: $18</p>
+    </div> </div>
+</body>
+
+</html>
