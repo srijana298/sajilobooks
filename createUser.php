@@ -11,12 +11,14 @@
 // echo "<br>";
 // echo "your password is <b><i><u>".$_POST['password']."</u>","</i>","</b>";
 // // echo $_POST['password'];
-// echo "<br>";
+// echo "<br> ";
 
 if (!isset($_POST['firstname'])) {
-    die("Please input first name");
+    die("Please input first name.");
 }
-
+if (!isset($_POST['lastname'])) {
+    die("Please input last name.");
+}
 ?>
 
 <h1>Data tanne page</h1>
