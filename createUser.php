@@ -19,6 +19,10 @@ if (!isset($_POST['firstname'])) {
 if (!isset($_POST['lastname'])) {
     die("Please input last name.");
 }
+
+if (!isset($_POST['email'])) {
+    die("Please input email");
+}
 ?>
 
 <h1>Data tanne page</h1>
